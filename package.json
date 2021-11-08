@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css:build": "tailwind build ./src/style.css -o ./build/style.css"
   },
   "author": "",
   "license": "ISC",
